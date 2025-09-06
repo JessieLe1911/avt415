@@ -44,7 +44,7 @@ h1 {
 h2 {
 	color: #E6F941;
 }
-h3, p {
+h3, p, ul, il, ol {
 	color: #E6F941;
 	font-family: 'Funnel Display', sans-serif;
 }
