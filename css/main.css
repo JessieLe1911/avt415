@@ -8,6 +8,12 @@ body {
 	font-size: 30px;
 	max-width: 100%;
 }
+.funnel-display-<uniquifier> {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 header {
 	width: 75vw;
 	margin: 25px auto;
