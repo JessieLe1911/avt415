@@ -78,6 +78,10 @@ a{
 	color: #1D2F6F;
 	text-decoration: none;
 	}
+	h3, p, ul, il, ol {
+	color: #242424;
+	font-family: 'Funnel Display', sans-serif;
+	}
 	body{
 		background-color: #FAC748;
 		margin-top: 50px;
