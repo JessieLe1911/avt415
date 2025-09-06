@@ -23,21 +23,21 @@ main {
 	padding: 0.25;
 }
 h1 {
-	color: #FAC748;
+	color: #E6F941;
 	font-size: 100px;
 }
 h2 {
-	color: #FAC748;
+	color: #E6F941;
 }
 h3, p {
-	color: #FAC748;
+	color: #E6F941;
 }
 a:hover{
 	color: #F9E9EC;
 	background-color: #F88DAD;
 }
 a{
-	color: #FAC748;
+	color: #E6F941;
 	text-decoration: none;
 }
 @media screen and (max-width: 900px) {
