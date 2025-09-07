@@ -1,5 +1,5 @@
 body {
-	background-color:#1D2F6F;
+	background-color:#FAF0CA;
 	margin-top: 200px;
   	margin-bottom: 200px;
   	margin-right: 250px;
@@ -37,22 +37,22 @@ main {
 	padding: 0.25;
 }
 h1 {
-	color: #E6F941;
+	color: #0D3B66;
 	font-size: 100px;
 }
 h2 {
-	color: #E6F941;
+	color: #0D3B66;
 }
 h3, p, ul, il, ol {
-	color: #FFFFFF;
+	color: #0D3B66;
 	font-family: 'Funnel Display', sans-serif;
 }
 a:hover{
-	color: #F9E9EC;
-	background-color: #F88DAD;
+	color: #FAF0CA;
+	background-color: #0D3B66;
 }
 a{
-	color: #E6F941;
+	color: #0D3B66;
 	text-decoration: none;
 }
 @media screen and (max-width: 900px) {
@@ -61,29 +61,29 @@ a{
 	margin-bottom: 50px;
 	}
 	h1 {
-		color: #1D2F6F;
+		color: #FAF0CA;
 		font-size: 70px;
 	}
 	h2 {
-		color: #1D2F6F;
+		color: #FAF0CA;
 	}
 	h3 {
-		color: #1D2F6F;
+		color: #FAF0CA;
 	}
 	a:hover {
-	color: #F9E9EC;
-	background-color: #F88DAD;
+	color: #0D3B66;
+	background-color: #FAF0CA;
 	}
 	a{
-	color: #1D2F6F;
+	color: #FAF0CA;
 	text-decoration: none;
 	}
 	h3, p, ul, il, ol {
-	color: #242424;
+	color: #FAF0CA;
 	font-family: 'Funnel Display', sans-serif;
 	}
 	body{
-		background-color: #FAC748;
+		background-color: #0D3B66;
 		margin-top: 50px;
   		margin-bottom: 50px;
   		margin-right: 100px;
