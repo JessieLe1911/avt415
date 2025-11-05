@@ -164,7 +164,7 @@ body {
   	animation-iteration-count: infinite;
 }
  @keyframes dripping {
-  0%   { left:652px; top:537px}
+  0%   { left:652px; top:537px;width: 5px; height: 5px;}
   50%   { left:652px; top:537px}
   100%  { left:652px; top:680px}
 }
