@@ -79,7 +79,19 @@ body {
     min-height: 207px;
     max-width: 199px;
     max-height: 207px;
+    animation-name: laughing;
+    animation-duration: 2s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
   }
+ @keyframes laughing {
+  0%   {rotate: 50deg; left:569px; top:332px;}
+  20%  { rotate: 39deg; left:569px; top:332px;}
+  40%  { rotate: 50deg; left:569px; top:332px;}
+  60%  { rotate: 39deg; left:569px; top:332px;}
+  80% { rotate: 50deg; left:569px; top:332px;}
+  100%  { rotate: 39deg; left:569px; top:332px;}
+}
 .eye{
     position: absolute;
     top: 472px;
@@ -115,7 +127,11 @@ body {
     width: 25px;
     height: 25px;
     background-color: #a10e0e;
-border-radius: 100px;
+	border-radius: 100px;
+	animation-name: dripping;
+	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+  	/*animation-direction: alternate;*/
 }
 .blood1{
 	position: absolute;
@@ -124,10 +140,13 @@ border-radius: 100px;
     bottom: 0;
     left: 652px;
     width: 25px;
-    height: 95px;
+    height: 90px;
     background-color: #a10e0e;
     border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	animation-name: dripping1;
+	animation-duration: 3s;
+  	animation-iteration-count: infinite;
 }
 .blood2{
 	position: absolute;
@@ -140,4 +159,19 @@ border-radius: 100px;
     background-color: #a10e0e;
     border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	animation-name: dripping2;
+	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+}
+ @keyframes dripping {
+  0%   { left:652px; top:575px}
+  100%  { left:652px; top:680px}
+}
+ @keyframes dripping1 {
+  0%   { left:652px; top:544px;  height: 50px;}
+  100%  { left:652px; top:544px; height: 115px;}
+}
+ @keyframes dripping2 {
+  0%   { left:689px; top:544px;  height: 25px;}
+  100%  { left:689px; top:544px; height: 103px;}
 }
