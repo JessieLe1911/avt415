@@ -59,16 +59,16 @@ body {
   }
 .eye{
     position: absolute;
-    top: 471px;
+    top: 472px;
     right: 0;
     bottom: 0;
-    left: 576px;
+    left: 580px;
     width: 73px;
     height: 95px;
     background-color: transparent;
     border-radius: 50%;
     box-shadow: 23px 0px 0px 0px black;
-    rotate: 265deg;
+    rotate: 255deg;
   }
 .nose{
     position: absolute;
