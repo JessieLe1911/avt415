@@ -1,5 +1,5 @@
 body {
-	background-color: #212121;
+	background-color: black;
 }
 .moon{
     position: relative;
@@ -50,7 +50,7 @@ body {
     height: 207px;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 73px -6px 0px 0px #212121;
+    box-shadow: 73px -6px 0px 0px black;
     rotate: 39deg;
     min-width: 199px;
     min-height: 207px;
@@ -67,7 +67,7 @@ body {
     height: 95px;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 23px 10px 0px 0px #212121;
+    box-shadow: 23px 10px 0px 0px black;
     rotate: 247deg;
   }
 .nose{
