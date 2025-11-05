@@ -28,6 +28,9 @@ body {
   	width: 150px;
   	background: #F8C936;
   	mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000%/99.5% 99.5%;
+  	animation-name: sparkling;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
 }
 .sparkle2 {
 	position: relative;
@@ -39,8 +42,28 @@ body {
   	width: 70px;
   	background: #F8C936;
   	mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000%/99.5% 99.5%;
+  	animation-name: sparkling2;
+  	animation-duration: 3s;
+  	animation-iteration-count: infinite;
  }
- .mouth{
+ @keyframes sparkling {
+  0%   {background-color:#F8C936; left:665px; top:-254px;}
+  25%  {background-color:black; left:665px; top:-254px;}
+  50%  {background-color:#F8C936; left:665px; top:-254px;}
+  75%  {background-color:black; left:665px; top:-254px;}
+  100% {background-color:#F8C936; left:665px; top:-254px;}
+}
+ @keyframes sparkling2 {
+  0%   {background-color:#F8C936; left:770px; top:-303px;}
+  14.29%%  {background-color:black; left:770px; top:-303px;}
+  28.57%  {background-color:#F8C936; left:770px; top:-303px;}
+  42.86%  {background-color:black; left:770px; top:-303px;}
+  57.14% {background-color:#F8C936; left:770px; top:-303px;}
+  71.43%  {background-color:black; left:770px; top:-303px;}
+  85.71% {background-color:#F8C936; left:770px; top:-303px;}
+  100%  {background-color:black; left:770px; top:-303px;}
+}
+.mouth{
     position: absolute;
     top: 332px;
     right: 0;
